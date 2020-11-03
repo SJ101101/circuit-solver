@@ -404,7 +404,7 @@ function submitData() {
                             
                             let mainCanvasOffsetLeft = mainCanvasCoords.left - circuitDivCoords.left;
                             let mainCanvasOffsetTop = mainCanvasCoords.top - circuitDivCoords.top;
-                            img.src = "images/arrowLeftToRight.png";
+                            img.src = "./src/images/arrowLeftToRight.png";
                             img.setAttribute("class", "currentImage_img");
                             img.setAttribute("style", "transform: rotate(" + rotateAngle + "deg)");
 
